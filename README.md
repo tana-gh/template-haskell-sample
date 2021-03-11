@@ -1,1 +1,0 @@
-# template-haskell-sample

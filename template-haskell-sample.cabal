@@ -20,10 +20,9 @@ maintainer:         yozoranotakaku@gmail.com
 extra-source-files: CHANGELOG.md
 
 library
-    exposed-modules:  Lib, Macro
-
-    -- Modules included in this library but not exported.
-    -- other-modules:
+    exposed-modules:
+        Lib,
+        Macro
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
@@ -55,9 +54,6 @@ library
 
 executable template-haskell-sample
     main-is:          Main.hs
-
-    -- Modules included in this executable, other than Main.
-    -- other-modules:
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
